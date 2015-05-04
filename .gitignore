@@ -30,8 +30,8 @@ _ReSharper.*
 *.csproj.user
 obj/
 bin/
-[Dd]ebug*/
-[Rr]elease*/
+/Src/*/[Dd]ebug*/
+/Src/*/[Rr]elease*/
 *.[Pp]ublish.xml
 # General
 *.orig
@@ -41,3 +41,4 @@ bin/
 /Build/
 *.DS_Store
 /[Pp]ackages/*
+!/[Pp]ackages/Nini/
