@@ -77,6 +77,7 @@ namespace Dweetabix
             _dweet.DweetReceived += (o, e) =>
             {
                 var msg = e.Dweet.Content.As<Message>().Msg;
+                LogHelper.Info("Dweet received: " + msg);
                 _serial.Write(msg);
             };
 
